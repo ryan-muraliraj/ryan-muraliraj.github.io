@@ -13,15 +13,46 @@
 <link rel="stylesheet" type="text/css" href="style1.css"/>
 </head>
 <body>
+
     <div class="sidebar">
-        <a class="active" href="#home">Home</a>
-        <a href="#project">My Projects</a>
-        <a href="#about">About Me</a>
-        <a href="#contact">Contact Me</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#project">My Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#contact">Contact Me</a>
+            </li>
+        </ul>
     </div>
+    
     <div class="content container">
-        <div class="jumbotron jumbotron-fluid">
-            Content.
+        <div class="tab-content">
+            <div class="tab-pane container active" id="home">
+                <div class="jumbotron jumbotron-fluid">
+                    <h1>Ryan Muraliraj.</h1>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="project">
+                <div class="jumbotron jumbotron-fluid">
+                    <h1></h1>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="about">
+                <div class="jumbotron jumbotron-fluid">
+                    <h1></h1>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="contact">
+                <div class="jumbotron jumbotron-fluid">
+                    <h1></h1>
+                </div>
+            </div>
         </div>
     </div>
 </body>
